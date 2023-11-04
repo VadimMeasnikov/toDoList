@@ -23,6 +23,8 @@ function App() {
       title: "Добавленный пост",
       body: "Lorem"
     }
+    setArr([...arr, object])
+    
   }
 
   return (
